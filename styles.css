@@ -1,0 +1,76 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #333; /* Fundo escuro */
+color: #fff;
+}
+
+/* Estilos da página principal */
+.livro {
+    background-color: #333; /* Fundo escuro */
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.titulo-livro {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.autor-livro {
+    margin-top: 5px;
+    font-style: italic;
+    color: #fff;
+}
+
+.nav-button {
+    background-color: #333; /* Fundo escuro */
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dark-mode-toggle {
+    background-color: #333; /* Fundo escuro */
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .livro {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-button {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+
+
+
